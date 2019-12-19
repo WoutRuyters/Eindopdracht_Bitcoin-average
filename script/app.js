@@ -186,7 +186,7 @@ const chartPrices = function(jsonData){
     dayPrices.push(jsonData.low, jsonData.high - 50,jsonData.averages.day, jsonData.low + 27.67, jsonData.low + 43.12, jsonData.low + 67.74, jsonData.bid, jsonData.high, jsonData.last, jsonData.ask)
     currentDateTime = new Date().toLocaleString()
     // backup
-    //currentDateTime = "12/18/2019, 1:06:30 PM"
+    // currentDateTime = "12/18/2019, 1:06:30 PM"
     function getFirstPart(currentDateTime){
         return currentDateTime.split(', ')[0];
 

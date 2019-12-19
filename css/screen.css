@@ -555,7 +555,7 @@ input::placeholder {
 
 @media (min-width: 1440px){
 	.c-background-img {
-		background-image: url(/img/jpg/Bitcoin_bg.jpg);
+		background-image: url(img/jpg/Bitcoin_bg.jpg);
 	
 		background-position: center center;
 	
